@@ -1,0 +1,25 @@
+.row.card-header {
+	margin-bottom: 0 !important;
+	padding: 0rem 0rem !important;
+	border-radius: 0 !important;
+	border-bottom: 2px solid rgba(0,0,0,.125)!important;
+} /*would affect both name and connect with me headers*/
+
+.name.card-header {
+	background-color: #4aaaa5 !important;
+}
+
+h2, h5 {
+	color: #4aaaa5;
+}
+
+.container {
+	width: 95%;
+}
+
+.footer.card {
+	border-radius: 0 !important;
+	border-bottom: 0 !important; 
+	border-top: 6px solid #4aaaa5;
+	height: 60px !important;
+}
