@@ -35,8 +35,9 @@ h2, h5 {
 }
 
 .footer.card-header {
+	/*I cannot get rid of the border bottom on the footer*/
 	border-bottom: 0 !important; 
-	border-bottom: 1px solid #828A91 !important;
+	/*border-bottom: 1px solid #828A91 !important;*/
 }
 
 .card {
