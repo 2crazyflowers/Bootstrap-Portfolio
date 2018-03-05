@@ -1,3 +1,8 @@
+/*.body-background {
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
 .row.card-header {
 	margin-bottom: 0 !important;
 	padding: 0rem 0rem !important;
@@ -36,9 +41,7 @@ h2, h5 {
 }
 
 .footer.card-header {
-	/*I cannot get rid of the border bottom on the footer*/
 	border-bottom: 0 !important; 
-	/*border-bottom: 1px solid #828A91 !important;*/
 }
 
 .card {
@@ -57,4 +60,8 @@ input, textarea {
 /*Portfolio Page styling*/
 .title img {
 	width: 110%;
+}
+
+img.card-img-top {
+	height: 12rem !important;
 }
