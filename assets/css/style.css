@@ -1,18 +1,21 @@
-/*.body-background {
-	background-repeat: no-repeat;
-	background-size: cover;
-}*/
+.body-background {
+	color: #868e96 !important;
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+}
 
 .row.card-header {
 	margin-bottom: 0 !important;
 	padding: 0rem 0rem !important;
 	/*border-radius: 0 !important;*/
-	border-bottom: 2px solid rgba(0,0,0,.125)!important;
+	border-bottom: 1px solid rgba(0,0,0,.125)!important;
+	border-bottom: 6px solid #17A2B8 !important;
 } /*would affect both name and connect with me headers*/
 
-/*.name.card-header {
-	background-color: #4aaaa5 !important;
-}*/
+.card-header {
+	border-bottom: 2px solid rgba(0,0,0,.125)!important;
+/*	border-bottom: 6px solid #17A2B8 !important;*/
+}
 
 h2, h5 {
 	/*To make color same as basic,
@@ -35,13 +38,8 @@ h2, h5 {
 	/*color: #4aaaa5;*/
 /*To make color same as basic use below option,
 	 but I like new color from bootstrap*/
-/*	border-top: 6px solid #4aaaa5;*/
-	border-top: 6px solid #17A2B8;
-	height: 60px !important;
-}
-
-.footer.card-header {
-	border-bottom: 0 !important; 
+	border-top: 6px solid #17A2B8 !important;
+	height: 70px !important;
 }
 
 .card {
